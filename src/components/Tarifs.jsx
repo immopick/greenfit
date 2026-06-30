@@ -170,7 +170,7 @@ export default function Tarifs() {
 
         <div className="tarifs__extras reveal">
           <div className="tarifs__extra">
-            <span className="tarifs__extra-icon tarifs__extra-icon--green" aria-hidden="true">
+            <span className="tarifs__extra-icon" aria-hidden="true">
               <Icon name="users" size={20} stroke={1.8} />
             </span>
             <div className="tarifs__extra-text">
@@ -179,7 +179,7 @@ export default function Tarifs() {
             </div>
           </div>
           <div className="tarifs__extra">
-            <span className="tarifs__extra-icon tarifs__extra-icon--purple" aria-hidden="true">
+            <span className="tarifs__extra-icon" aria-hidden="true">
               <Icon name="pulse" size={20} stroke={1.8} />
             </span>
             <div className="tarifs__extra-text">
@@ -187,7 +187,7 @@ export default function Tarifs() {
               <p>Votre caisse-maladie prend en charge une partie de votre abonnement.</p>
             </div>
           </div>
-          <div className="tarifs__extra tarifs__extra--highlight">
+          <div className="tarifs__extra">
             <span className="tarifs__extra-icon" aria-hidden="true">
               <Icon name="spark" size={20} stroke={1.8} />
             </span>

@@ -155,21 +155,11 @@
   flex: 0 0 auto;
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
   background: var(--bg-soft);
-  color: var(--ink);
-}
-
-.tarifs__extra-icon--green {
-  background: var(--green-soft);
-  color: var(--green-700);
-}
-
-.tarifs__extra-icon--purple {
-  background: var(--purple-soft);
-  color: var(--purple-700);
+  color: var(--muted);
 }
 
 .tarifs__extra-text {
@@ -194,26 +184,8 @@
 }
 
 .tarifs__extra--highlight {
-  background: var(--ink);
-  border-color: var(--ink);
-}
-
-.tarifs__extra--highlight:hover {
-  box-shadow: var(--shadow-lg);
-}
-
-.tarifs__extra--highlight .tarifs__extra-icon {
-  background: rgba(255, 255, 255, 0.12);
-  color: #fff;
-}
-
-.tarifs__extra--highlight strong,
-.tarifs__extra--highlight p {
-  color: #fff;
-}
-
-.tarifs__extra--highlight p {
-  opacity: 0.82;
+  background: var(--white);
+  border-color: var(--line);
 }
 
 @media (max-width: 920px) {
