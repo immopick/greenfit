@@ -9,8 +9,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Vidéos trop volumineuses pour GitHub
+# Fichiers sources volumineux
 *.mov
-*.mp4
 *.HEIC
 Screenshot*

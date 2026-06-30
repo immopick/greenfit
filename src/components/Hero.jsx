@@ -19,7 +19,7 @@ export default function Hero() {
           playsInline
           poster="/images/salle/salle.jpg"
         >
-          <source src="/videos/gym.mov" type="video/mp4" />
+          <source src="/videos/gym.mp4" type="video/mp4" />
         </video>
         <div className="hero__overlay" />
         <div className="hero__grid" aria-hidden="true" />
